@@ -1,6 +1,14 @@
+xrandr -s 1920x1080 &
 
 sh ~/.config/polybar/launch.sh &
 
 numlockx &
 
+~/.config/openbox/zentile_linux_amd64 &
+
+
 nitrogen --restore 
+
+compton -i 0.7 --active-opacity 0.9 -b 
+
+
