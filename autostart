@@ -1,1 +1,6 @@
 
+sh ~/.config/polybar/launch.sh &
+
+numlockx &
+
+nitrogen --restore 
