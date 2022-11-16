@@ -113,14 +113,14 @@
   <keyboard><!-- { -->
     <chainQuitKey>C-g</chainQuitKey>
 <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left" ><action name="GoToDesktop"       ><to>left </to><wrap>no</wrap></action></keybind>
-    <keybind key="C-A-Right"><action name="GoToDesktop"       ><to>right</to><wrap>no</wrap></action></keybind>
-    <keybind key="C-A-Up"   ><action name="GoToDesktop"       ><to>up   </to><wrap>no</wrap></action></keybind>
-    <keybind key="C-A-Down" ><action name="GoToDesktop"       ><to>down </to><wrap>no</wrap></action></keybind>
-    <keybind key="S-A-Left" ><action name="SendToDesktop"     ><to>left </to><wrap>no</wrap></action></keybind>
-    <keybind key="S-A-Right"><action name="SendToDesktop"     ><to>right</to><wrap>no</wrap></action></keybind>
-    <keybind key="S-A-Up"   ><action name="SendToDesktop"     ><to>up   </to><wrap>no</wrap></action></keybind>
-    <keybind key="S-A-Down" ><action name="SendToDesktop"     ><to>down </to><wrap>no</wrap></action></keybind>
+    <keybind key="W-Left" ><action name="GoToDesktop"       ><to>left </to><wrap>no</wrap></action></keybind>
+    <keybind key="W-Right"><action name="GoToDesktop"       ><to>right</to><wrap>no</wrap></action></keybind>
+    <keybind key="W-Up"   ><action name="GoToDesktop"       ><to>up   </to><wrap>no</wrap></action></keybind>
+    <keybind key="W-Down" ><action name="GoToDesktop"       ><to>down </to><wrap>no</wrap></action></keybind>
+    <keybind key="S-W-Left" ><action name="SendToDesktop"     ><to>left </to><wrap>no</wrap></action></keybind>
+    <keybind key="S-W-Right"><action name="SendToDesktop"     ><to>right</to><wrap>no</wrap></action></keybind>
+    <keybind key="S-W-Up"   ><action name="SendToDesktop"     ><to>up   </to><wrap>no</wrap></action></keybind>
+    <keybind key="S-W-Down" ><action name="SendToDesktop"     ><to>down </to><wrap>no</wrap></action></keybind>
     <keybind key="W-F1"     ><action name="GoToDesktop"       ><to>   1 </to>               </action></keybind>
     <keybind key="W-F2"     ><action name="GoToDesktop"       ><to>   2 </to>               </action></keybind>
     <keybind key="W-F3"     ><action name="GoToDesktop"       ><to>   3 </to>               </action></keybind>
@@ -156,8 +156,9 @@
     <keybind key="W-S-Down" ><action name="DirectionalCycleWindows"><direction>down </direction></action></keybind>
 
     <!-- Keybindings for running applications -->
-    <keybind key="W-e"      ><action name="Execute"><startupnotify><enabled>true</enabled> <name>Konqueror</name> </startupnotify> <command>kfmclient openProfile filemanagement</command> </action> </keybind>
+    <keybind key="W-f"      ><action name="Execute"><startupnotify><enabled>true</enabled> <name>Pcmanfm</name> </startupnotify> <command>pcmanfm</command> </action> </keybind>
     <keybind key="W-t"      ><action name="Execute"><startupnotify><enabled>true</enabled> <name>XTterm   </name> </startupnotify> <command>xterm                               </command> </action> </keybind>
+     <keybind key="W-r"      ><action name="Execute"><startupnotify><enabled>true</enabled> <name>Dmenu</name> </startupnotify> <command>dmenu-run</command> </action> </keybind>
   </keyboard><!-- } -->
 
   <mouse><!-- { -->
@@ -417,16 +418,6 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
-      </mousebind>
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
