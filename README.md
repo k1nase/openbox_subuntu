@@ -10,6 +10,6 @@ Tiling feature
 
 https://github.com/blrsn/zentile
 
-Download zentile :
+Download zentile in ~/
 https://github.com/blrsn/zentile#installation
 
