@@ -12,4 +12,4 @@ https://github.com/blrsn/zentile
 
 Download zentile in ~/
 https://github.com/blrsn/zentile#installation
-
+config.toml = zentile config file (in ~/.config/zentile/
