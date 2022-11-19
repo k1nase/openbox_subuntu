@@ -6,10 +6,6 @@ https://thomashunter.name/posts/2019-01-27-treating-openbox-like-a-tiling-window
 
 https://gist.github.com/uriel1998/f181937ccd3fc56a8490b0b646d565c4
 
-Tiling feature
+Tiling feature - cortile
 
-https://github.com/blrsn/zentile
-
-Download zentile in ~/
-https://github.com/blrsn/zentile#installation
-config.toml = zentile config file (in ~/.config/zentile/
+https://github.com/leukipp/cortile
