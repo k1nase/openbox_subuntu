@@ -9,3 +9,5 @@ https://gist.github.com/uriel1998/f181937ccd3fc56a8490b0b646d565c4
 Tiling feature - cortile
 
 https://github.com/leukipp/cortile
+
+Config cortile in config.toml
