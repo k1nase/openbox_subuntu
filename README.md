@@ -11,3 +11,4 @@ Tiling feature - cortile
 https://github.com/leukipp/cortile
 
 Config cortile in config.toml
+/!\ Alt-binded tiling actions would probably interfere with file manager keybinds - should modifiy them /!\
